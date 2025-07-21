@@ -12,7 +12,7 @@ draft: false
 
 There are lots of great journals out there owned by non-profit societies and organisations!
 
-Know more journals? Add them by submitting a pull request on [GitHub](https://github.com/davidyshen/nonprofit_publishing) so we can build a comprehensive list of non-profit or society-owned journals.
+Know more journals or see one missing? Add them by submitting a pull request on [GitHub](https://github.com/davidyshen/nonprofit_publishing) so we can build a comprehensive list of non-profit or society-owned journals.
 
 <div class="overflow-x-auto mt-6">
     <table id="journals-table" class="display nowrap" style="width:100%">

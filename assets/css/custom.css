@@ -1,5 +1,10 @@
 /* Add your own custom styles here */
 
+/* Banner Content Styling */
+section.section .text-center p {
+    font-size: 1.5em !important;
+}
+
 /* DataTables Custom Styling - Using theme colors from data/theme.json */
 .dataTables_wrapper {
     font-family: inherit;

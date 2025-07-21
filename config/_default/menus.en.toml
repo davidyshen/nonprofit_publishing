@@ -11,3 +11,7 @@ name = "Journals"
 url = "/journals"
 weight = 2
 
+[[main]]
+name = "Get Involved"
+url = "/get-involved"
+weight = 3
