@@ -1,1 +1,380 @@
 /* Add your own custom styles here */
+
+/* DataTables Custom Styling - Using theme colors from data/theme.json */
+.dataTables_wrapper {
+    font-family: inherit;
+}
+
+.dataTables_filter {
+    margin-bottom: 1rem;
+}
+
+.dataTables_filter input {
+    border: 1px solid #f4d35e !important;
+    /* theme border color */
+    border-radius: 0.375rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-left: 0.5rem;
+    background: #faf0ca !important;
+    /* theme body color */
+    color: #0d3b66 !important;
+    /* theme text color */
+}
+
+.dataTables_filter input:focus {
+    outline: none;
+    border-color: #f95738 !important;
+    /* theme primary color */
+    box-shadow: 0 0 0 2px rgba(249, 87, 56, 0.1);
+}
+
+.dataTables_length select {
+    border: 1px solid #f4d35e !important;
+    /* theme border color */
+    border-radius: 0.375rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    margin: 0 0.5rem;
+    background: #faf0ca !important;
+    /* theme body color */
+    color: #0d3b66 !important;
+    /* theme text color */
+}
+
+.dataTables_length select:focus {
+    outline: none;
+    border-color: #f95738 !important;
+    /* theme primary color */
+}
+
+/* DataTables label text styling for light mode */
+.dataTables_length label,
+.dataTables_filter label {
+    color: #0d3b66 !important;
+    /* theme text color */
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.dataTables_info {
+    padding-top: 1rem;
+    font-size: 0.875rem;
+    color: #717171;
+    /* theme text_light color */
+}
+
+.dataTables_paginate {
+    padding-top: 1rem;
+}
+
+.dataTables_paginate .paginate_button {
+    padding: 0.375rem 0.75rem;
+    margin: 0 0.125rem;
+    border: 1px solid #f4d35e;
+    /* theme border color */
+    border-radius: 0.375rem;
+    background: #faf0ca;
+    /* theme body color */
+    color: #0d3b66;
+    /* theme text color */
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+}
+
+.dataTables_paginate .paginate_button:hover {
+    background: #f4d35e;
+    /* theme light color */
+    border-color: #f95738;
+    /* theme primary color */
+    color: #0d3b66;
+    /* theme text color */
+}
+
+.dataTables_paginate .paginate_button.current {
+    background: #f95738;
+    /* theme primary color */
+    border-color: #f95738;
+    /* theme primary color */
+    color: #faf0ca;
+    /* theme body color for contrast */
+}
+
+.dataTables_paginate .paginate_button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#journals-table {
+    width: 100% !important;
+    border-collapse: collapse;
+    table-layout: fixed;
+    /* Enable fixed layout for better text wrapping */
+    word-wrap: break-word;
+    /* Allow long words to break */
+}
+
+#journals-table thead th {
+    padding: 0.75rem;
+    text-align: left;
+    font-weight: 600;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+#journals-table tbody td {
+    padding: 0.75rem;
+    word-wrap: break-word;
+    hyphens: auto;
+    white-space: normal;
+    /* Allow text to wrap */
+    overflow-wrap: break-word;
+    /* Modern property for word breaking */
+}
+
+/* Removed table hover and alternating row styling to use default behavior */
+
+/* Responsive table wrapper */
+.dataTables_wrapper .dataTables_scroll {
+    overflow-x: visible;
+    /* Remove horizontal scroll */
+}
+
+.dataTables_wrapper {
+    overflow-x: visible;
+    /* Ensure no horizontal scroll on wrapper */
+}
+
+/* Text wrapping utility class */
+.text-wrap {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    hyphens: auto !important;
+}
+
+/* Dark mode support using theme colors */
+.dark .dataTables_filter input,
+[data-theme="dark"] .dataTables_filter input {
+    background: #0d3b66 !important;
+    /* darkmode theme body color */
+    border-color: #001d3d !important;
+    /* darkmode theme border color */
+    color: #ffffff !important;
+    /* darkmode theme text color */
+}
+
+.dark .dataTables_filter input:focus,
+[data-theme="dark"] .dataTables_filter input:focus {
+    border-color: #f95738 !important;
+    /* theme primary color */
+    box-shadow: 0 0 0 2px rgba(249, 87, 56, 0.2);
+}
+
+.dark .dataTables_length select,
+[data-theme="dark"] .dataTables_length select {
+    background: #0d3b66 !important;
+    /* darkmode theme body color */
+    border-color: #001d3d !important;
+    /* darkmode theme border color */
+    color: #ffffff !important;
+    /* darkmode theme text color */
+}
+
+.dark .dataTables_length select:focus,
+[data-theme="dark"] .dataTables_length select:focus {
+    border-color: #f95738 !important;
+    /* theme primary color */
+}
+
+/* DataTables label text styling for dark mode */
+.dark .dataTables_length label,
+.dark .dataTables_filter label,
+[data-theme="dark"] .dataTables_length label,
+[data-theme="dark"] .dataTables_filter label {
+    color: #ffffff !important;
+    /* darkmode theme text color */
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.dark .dataTables_info,
+[data-theme="dark"] .dataTables_info {
+    color: #B4AFB6;
+    /* darkmode theme text_light color */
+}
+
+.dark .dataTables_paginate .paginate_button,
+[data-theme="dark"] .dataTables_paginate .paginate_button {
+    background: #0d3b66;
+    /* darkmode theme body color */
+    border-color: #001d3d;
+    /* darkmode theme border color */
+    color: #ffffff;
+    /* darkmode theme text color */
+}
+
+.dark .dataTables_paginate .paginate_button:hover,
+[data-theme="dark"] .dataTables_paginate .paginate_button:hover {
+    background: #001d3d;
+    /* darkmode theme light color */
+    border-color: #f95738;
+    /* theme primary color */
+    color: #ffffff;
+    /* darkmode theme text color */
+}
+
+.dark .dataTables_paginate .paginate_button.current,
+[data-theme="dark"] .dataTables_paginate .paginate_button.current {
+    background: #f95738;
+    /* theme primary color */
+    border-color: #f95738;
+    /* theme primary color */
+    color: #0d3b66;
+    /* contrast color */
+}
+
+/* Removed dark mode table styling to use default behavior */
+
+/* Additional styling for DataTables search highlighting */
+.dataTables_wrapper .dataTables_filter input[type="search"] {
+    background-image: none;
+    /* Remove default search icon */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Override browser autocomplete styling */
+.dataTables_filter input:-webkit-autofill,
+.dataTables_filter input:-webkit-autofill:hover,
+.dataTables_filter input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #faf0ca inset !important;
+    -webkit-text-fill-color: #0d3b66 !important;
+    border-color: #f4d35e !important;
+}
+
+.dataTables_length select:-webkit-autofill,
+.dataTables_length select:-webkit-autofill:hover,
+.dataTables_length select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #faf0ca inset !important;
+    -webkit-text-fill-color: #0d3b66 !important;
+    border-color: #f4d35e !important;
+}
+
+/* Dark mode autocomplete overrides */
+.dark .dataTables_filter input:-webkit-autofill,
+.dark .dataTables_filter input:-webkit-autofill:hover,
+.dark .dataTables_filter input:-webkit-autofill:focus,
+[data-theme="dark"] .dataTables_filter input:-webkit-autofill,
+[data-theme="dark"] .dataTables_filter input:-webkit-autofill:hover,
+[data-theme="dark"] .dataTables_filter input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #0d3b66 inset !important;
+    -webkit-text-fill-color: #ffffff !important;
+    border-color: #001d3d !important;
+}
+
+.dark .dataTables_length select:-webkit-autofill,
+.dark .dataTables_length select:-webkit-autofill:hover,
+.dark .dataTables_length select:-webkit-autofill:focus,
+[data-theme="dark"] .dataTables_length select:-webkit-autofill,
+[data-theme="dark"] .dataTables_length select:-webkit-autofill:hover,
+[data-theme="dark"] .dataTables_length select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #0d3b66 inset !important;
+    -webkit-text-fill-color: #ffffff !important;
+    border-color: #001d3d !important;
+}
+
+/* Custom scrollbar for table wrapper */
+.dataTables_wrapper .dataTables_scrollBody::-webkit-scrollbar {
+    height: 8px;
+}
+
+.dataTables_wrapper .dataTables_scrollBody::-webkit-scrollbar-track {
+    background: #f4d35e;
+    /* theme border color */
+    border-radius: 4px;
+}
+
+.dataTables_wrapper .dataTables_scrollBody::-webkit-scrollbar-thumb {
+    background: #f95738;
+    /* theme primary color */
+    border-radius: 4px;
+}
+
+.dark .dataTables_wrapper .dataTables_scrollBody::-webkit-scrollbar-track,
+[data-theme="dark"] .dataTables_wrapper .dataTables_scrollBody::-webkit-scrollbar-track {
+    background: #001d3d;
+    /* darkmode theme border color */
+}
+
+.dark .dataTables_wrapper .dataTables_scrollBody::-webkit-scrollbar-thumb,
+[data-theme="dark"] .dataTables_wrapper .dataTables_scrollBody::-webkit-scrollbar-thumb {
+    background: #f95738;
+    /* theme primary color */
+}
+
+/* Support for prefers-color-scheme dark mode as fallback */
+@media (prefers-color-scheme: dark) {
+    .dataTables_filter input {
+        background: #0d3b66;
+        border-color: #001d3d;
+        color: #ffffff;
+    }
+
+    .dataTables_filter input:focus {
+        border-color: #f95738;
+        box-shadow: 0 0 0 2px rgba(249, 87, 56, 0.2);
+    }
+
+    .dataTables_length select {
+        background: #0d3b66;
+        border-color: #001d3d;
+        color: #ffffff;
+    }
+
+    .dataTables_length select:focus {
+        border-color: #f95738;
+    }
+
+    .dataTables_length label,
+    .dataTables_filter label {
+        color: #ffffff;
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    .dataTables_info {
+        color: #B4AFB6;
+    }
+
+    .dataTables_paginate .paginate_button {
+        background: #0d3b66;
+        border-color: #001d3d;
+        color: #ffffff;
+    }
+
+    .dataTables_paginate .paginate_button:hover {
+        background: #001d3d;
+        border-color: #f95738;
+        color: #ffffff;
+    }
+
+    .dataTables_paginate .paginate_button.current {
+        background: #f95738;
+        border-color: #f95738;
+        color: #0d3b66;
+    }
+
+    /* Removed table styling to use default behavior */
+
+    .dataTables_wrapper .dataTables_scrollBody::-webkit-scrollbar-track {
+        background: #001d3d;
+    }
+
+    .dataTables_wrapper .dataTables_scrollBody::-webkit-scrollbar-thumb {
+        background: #f95738;
+    }
+}
