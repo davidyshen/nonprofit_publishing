@@ -10,7 +10,7 @@ draft: false
 
 #### Ok then, I'm on board! But where should I publish my research?
 
-There are lots of great journals out there owned by non-profit societies and organisations!
+There are lots of great journals out there owned by non-profit societies and organisations, including high-impact heavy hitters like Science and PNAS!
 
 Know more journals or see one missing? Add them by submitting a pull request on [GitHub](https://github.com/davidyshen/nonprofit_publishing) so we can build a comprehensive list of non-profit or society-owned journals.
 
