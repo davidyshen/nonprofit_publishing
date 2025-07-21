@@ -10,7 +10,9 @@ draft: false
 
 #### Ok then, I'm on board! But where should I publish my research?
 
-There are lots of great journals out there owned by non-profit societies and organisations! Here are some examples:
+There are lots of great journals out there owned by non-profit societies and organisations!
+
+Know more journals? Add them by submitting a pull request on [GitHub](https://github.com/davidyshen/nonprofit_publishing) so we can build a comprehensive list of non-profit or society-owned journals.
 
 <div class="overflow-x-auto mt-6">
     <table id="journals-table" class="display nowrap" style="width:100%">
@@ -24,5 +26,3 @@ There are lots of great journals out there owned by non-profit societies and org
         </tbody>
     </table>
 </div>
-
-Know more journals? Submit them here so we can build a comprehensive list of non-profit or society-owned journals.
