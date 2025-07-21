@@ -12,7 +12,7 @@ draft: false
 
 All you need to do is to take the pledge. Commit to publishing your first-author research exclusively in non-profit and scholarly society-owned journals. It's that simple!
 
-You can also help by spreading the word! Share the pledge with your colleagues and on social media to raise awareness about the importance of ethical publishing practices. Put it in your email signature, talk about it at conferences, and encourage others to take the pledge as well.
+You can also help by spreading the word! Share the pledge with your colleagues and on social media to raise awareness about the importance of responsible publishing practices. Put it in your email signature, talk about it at conferences, and encourage others to take the pledge as well.
 
 Here's one you can copy and paste:
 
