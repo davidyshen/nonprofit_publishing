@@ -13,12 +13,12 @@ banner:
 features:
   - title: "I'm a scientist, why should I care?"
     image: "/images/service-1.png"
-    content: "We all know the academic publishing model is broken. Publishers charge exorbitant fees, restrict access to research, and profit from the work of articles they get for better than free. The Non-profit Publishing Pledge is a commitment to publishing in ***only*** good quality journals owned by non-profit societies and organisations, ensuring money is reinvested into the academic community and wider society."
+    content: "We all know the academic publishing model is broken. Publishers charge exorbitant fees, restrict access to research, and profit from the work of articles they get for free. The Non-profit Publishing Pledge is a commitment to publishing in ***only*** good quality journals owned by non-profit societies and organisations, ensuring money is reinvested into the academic community and wider society."
 
 
   - title: "I'm not a scientist, why should I care?"
     image: "/images/service-2.png"
-    content: "The vast majority of academic research is publicly funded through government grants, and therefore taxpayer money. Many for-profit journals charge extremely high fees to publish research that *they don't pay for*, and then *charge people to view*! All for what is essentially making a PDF available online.\n
+    content: "The vast majority of academic research is publicly funded through government grants, and therefore taxpayer money. Many for-profit journals charge extremely high fees to publish research that *they don't pay for*, all for the 'privilege' of public access to publicly funded research! All for what is essentially making a PDF available online.\n
 
     This is a waste of public money, and the Non-profit Publishing Pledge is a commitment to only publish in journals that are owned by non-profit societies and organisations, reducing financial waste and ensuring that research is accessible to all."
     button:
