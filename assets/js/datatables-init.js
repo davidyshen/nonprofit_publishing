@@ -80,11 +80,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 const columnWidth = Math.floor(100 / headers.length); // Distribute width evenly
 
                 for (let i = 0; i < headers.length; i++) {
-                    columnDefs.push({
+                    const colDef = {
                         targets: [i],
                         width: `${columnWidth}%`,
                         className: "text-wrap"
-                    });
+                    };
+
+                    // Special handling for H-Index column - treat as numeric
+                    if (headers[i] && headers[i].toLowerCase().includes('h-index')) {
+                        colDef.type = 'num';
+                    }
+
+                    columnDefs.push(colDef);
                 }
 
                 // Initialize DataTable
