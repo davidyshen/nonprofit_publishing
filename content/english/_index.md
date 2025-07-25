@@ -14,6 +14,10 @@ features:
   - title: "I'm a scientist, why should I care?"
     image: "/images/scopes.png"
     content: "We all know the academic publishing model is broken. Publishers charge exorbitant fees, restrict access to research, and profit from the work of articles they get for free. The Non-profit Publishing Pledge is a commitment to publishing in ***only*** good quality journals owned by non-profit societies and organisations, ensuring money is reinvested into the academic community and wider society."
+    button:
+      enable: true
+      label: "Where should I publish then?"
+      link: "/journals"
 
 
   - title: "I'm not a scientist, why should I care?"
