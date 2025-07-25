@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     scrollX: false, // Disable horizontal scrolling
                     pageLength: -1,
                     lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
-                    order: [[0, 'asc']], // Sort by first column by default
+                    order: [[-1, 'desc']], // Sort by last column by default
                     columnDefs: columnDefs,
                     language: {
                         search: "Search journals:",
