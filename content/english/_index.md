@@ -28,8 +28,8 @@ features:
 
   - title: "But my career..."
     image: "/images/career.png"
-    content: "But my career depends on publishing in high-impact journals! The Non-profit Publishing Pledge is a commitment to publishing in ***only*** good quality journals, including high-impact ones like Science and PNAS. You can still build your career and CV while maintaining responsible publishing practices.\n
+    content: "But my career depends on publishing in high-impact journals! The Non-profit Publishing Pledge is a commitment to publishing in non-profit, *good quality* journals, including high-impact ones like Science and PNAS. You can still build your career and CV while maintaining responsible publishing practices.\n
     
-    Tides are also turning in academia! Many institutions and funding bodies explicitly do not take into account the 'prestige' of a journal when evaluating research outputs. The more people who take the pledge, the more we can shift this culture and make it easier for everyone to publish responsiblely."
+    Tides are also turning in academia! Many institutions and funding bodies explicitly do not take into account the 'prestige' of a journal when evaluating research outputs. The more people who take the pledge, the more we can shift this culture and make it easier for everyone to publish responsibly."
 
 ---
