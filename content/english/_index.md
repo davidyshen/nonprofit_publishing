@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "The Non-profit Publishing Pledge"
-  content: "I pledge to publish my first-author research exclusively in non-profit and scholarly society-owned journals, in support of responsible publishing practices"
+  content: "I pledge to publish my first-author research exclusively in non-profit and learned society-owned journals, in support of responsible publishing practices"
   image: "/images/banner.png"
   button:
     enable: true
