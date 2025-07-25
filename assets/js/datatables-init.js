@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 $('#journals-table').DataTable({
                     responsive: false, // Disable responsive mode to allow text wrapping
                     scrollX: false, // Disable horizontal scrolling
-                    pageLength: 25,
+                    pageLength: -1,
                     lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
                     order: [[0, 'asc']], // Sort by first column by default
                     columnDefs: columnDefs,
